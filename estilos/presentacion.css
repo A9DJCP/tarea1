@@ -1,0 +1,35 @@
+#presentacion {
+    width: 100%;
+    margin:0;
+    padding:0;
+    display:flex;
+	background-image: url("../img/nightLScape.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#imgPresentacion {
+    margin-left: 1%;
+    margin-top: 2%;
+    width: 25%;
+	border-radius: 10px;
+	border: silver;
+	border-style: solid;
+	-webkit-box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 1);
+	-moz-box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 1);
+	box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 1);
+}
+
+#primerParrafo{
+    width: 70%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 2%;
+    margin-bottom: 0;
+    font-family: cursive;
+    font-size: 2.1rem;
+    text-shadow: 1px 1px 1px #0F29C4, 2px 2px 1px #39005D;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    line-height: 1.6;
+}

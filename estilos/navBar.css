@@ -1,0 +1,67 @@
+#navBar {
+    margin: 0;
+    padding: 0;
+    background: purple;
+    border-bottom: solid silver 4px;
+    display: flex;
+}
+
+/*Los dos elementos de la barra de navegacion son Header y Tail*/
+
+#navHeader {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#navTail {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+/*Subelementos de Header: logo y navName*/
+
+#logo {
+    width: 10%;
+    margin: 0;
+}
+
+#navName{
+    font-family: sans-serif;
+    font-size: 2rem;   
+    height: 1.5rem;
+    color: gold;
+    margin-left: 4rem;
+}
+
+/*Subelementos de Tail: navList*/
+
+#navList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: auto;
+    display: flex;
+}
+
+#navList a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 2rem 3.5rem;
+    color: yellow;
+    letter-spacing: 0.1rem;
+    display: block;
+    transition: all 0.3s linear;
+}
+
+
+#navList a:hover {
+    background: #f8a5a5;
+    color: #e94949;
+    padding-left: 1.5rem;
+    background: transparent;
+}
+
+
